@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Market_Key" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDa-HA-95g">
+                                <rect key="frame" x="272.5" y="70" width="289" height="111"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="93"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRM-hD-qLr">
+                                <rect key="frame" x="354" y="178.5" width="126" height="97"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="81"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jl-Av-vrj">
+                                <rect key="frame" x="369" y="343" width="96" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkV-q6-F3k">
+                                <rect key="frame" x="303" y="406" width="228" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlH-KA-0Jk">
+                                <rect key="frame" x="332.5" y="600" width="169" height="98"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <state key="normal" title="Chart"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Q9-TP-h5v">
+                                <rect key="frame" x="309.5" y="706" width="215" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="Select new"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Jl-Av-vrj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Wh-G4-VYH"/>
+                            <constraint firstItem="tRM-hD-qLr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-370" id="2fy-Ho-cGQ"/>
+                            <constraint firstItem="kkV-q6-F3k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-166.5" id="BRG-58-9Zt"/>
+                            <constraint firstItem="WlH-KA-0Jk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="52" id="Bsw-zs-kEE"/>
+                            <constraint firstItem="tRM-hD-qLr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cy8-S2-Ltf"/>
+                            <constraint firstItem="7Jl-Av-vrj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-230" id="Dhf-I7-Sgg"/>
+                            <constraint firstItem="kkV-q6-F3k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XiW-nw-wma"/>
+                            <constraint firstItem="4Q9-TP-h5v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="142.5" id="ZFx-OE-bf1"/>
+                            <constraint firstItem="HDa-HA-95g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-471.5" id="bKL-y0-vUE"/>
+                            <constraint firstItem="WlH-KA-0Jk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dBU-rM-0oF"/>
+                            <constraint firstItem="HDa-HA-95g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dQm-ZF-kGh"/>
+                            <constraint firstItem="4Q9-TP-h5v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hvZ-V6-RK2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.53237410071943" y="93.969849246231149"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
